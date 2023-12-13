@@ -1,0 +1,9 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "novel",
+  "appid": "wx09eed9f5041cfd47",
+  "setting": {
+    "es6": false,
+    "minified": false
+  }
+}
