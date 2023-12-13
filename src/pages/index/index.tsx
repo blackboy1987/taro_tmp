@@ -1,7 +1,5 @@
-
-import {AtButton} from "taro-ui";
-import { View, Text } from '@tarojs/components'
-import { useLoad } from '@tarojs/taro'
+import {Text, View} from '@tarojs/components'
+import {useLoad} from '@tarojs/taro'
 import styles from './index.module.scss'
 
 export default function Index() {
@@ -11,9 +9,8 @@ export default function Index() {
   })
 
   return (
-    <View className={styles.styles}>
+    <View className={styles.index}>
       <Text>Hello world!</Text>
-      <AtButton type='primary'>aaaa</AtButton>
     </View>
   )
 }
